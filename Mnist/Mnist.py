@@ -5,7 +5,7 @@ from tensorflow.examples.tutorials.mnist import input_data
 input_node = 784  # 输入层的节点数，等于图片的像素
 output_node = 10  # 输出层的节点数，等于类别数，因为数字识别，所以为10
 
-# 配置神经网络的参数
+# 配置神经网络的参 数
 layer1_node = 500  # 隐藏层节点数
 
 batch_size = 100  # 数字越小训练越接近随机梯度下降，数字越大训练越接近梯度下降
